@@ -211,7 +211,7 @@ Por tanto, antes de decidir tecnologías, algoritmos o arquitectura, el equipo d
 
 ## DUDAS IMPORTANTES
 - ¿Existen sistemas de referencia cuyo funcionamiento deba igualarse o mejorarse?
-- ¿Disponemos de sensores sísmicos propios o debemos adquirirlos?
+- ¿De dónde obtenemos los datos, de sensores, APIs...?
 - ¿Disponemos de datos históricos de terremotos y de vibraciones no sísmicas?
 - ¿Podremos realizar pruebas con señales reales reproducidas, simulaciones y ruido ambiental?
 

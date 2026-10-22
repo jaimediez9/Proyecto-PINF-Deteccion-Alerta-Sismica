@@ -208,6 +208,7 @@ Por tanto, antes de decidir tecnologías, algoritmos o arquitectura, el equipo d
 - ¿Se necesita un registro histórico de eventos, alertas y decisiones? ¿Qué información debe conservarse?
 - ¿Se requiere autenticación, gestión de permisos o integración con otros sistemas?
 - ¿Se busca detectar terremotos reales, identificar vibraciones sospechosas o ambas cosas?
+- ¿Se necesitará más de un punto de detección para garantizar que se trate de un sismo?
 
 ## DUDAS IMPORTANTES
 - ¿Existen sistemas de referencia cuyo funcionamiento deba igualarse o mejorarse?

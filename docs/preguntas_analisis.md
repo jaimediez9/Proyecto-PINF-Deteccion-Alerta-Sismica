@@ -195,24 +195,19 @@ Por tanto, antes de decidir tecnologías, algoritmos o arquitectura, el equipo d
 # 13. Mi selección
 
 - ¿Cuál es el problema concreto que se pretende resolver mediante este sistema?
-- ¿Quién utilizará el sistema y quién recibirá las alertas?
+- ¿Cómo y quién recibirá las alertas?
 - ¿Qué decisiones se tomarán a partir de una alerta sísmica?
-- ¿Cómo se gestiona actualmente una posible emergencia sísmica y qué limitaciones presenta el procedimiento?
 - ¿Qué resultado tangible se espera obtener al finalizar el proyecto?
 - ¿Se pretende detectar un terremoto cuando ya está ocurriendo o proporcionar una alerta temprana antes de que lleguen las ondas más destructivas a determinadas ubicaciones?
 - ¿Se busca detectar terremotos reales, identificar vibraciones sospechosas o ambas cosas?
-- ¿El sistema debe localizar el epicentro, estimar la magnitud o determinar la intensidad esperada?
 - ¿Qué tipos de eventos sísmicos deben detectarse?
 - ¿Existen sistemas de referencia cuyo funcionamiento deba igualarse o mejorarse?
-- ¿Qué funcionalidades son imprescindibles y cuáles podrían considerarse opcionales?
 - ¿Disponemos de sensores sísmicos propios o debemos adquirirlos?
-- ¿Existe una red de sensores o trabajaremos con una única estación?
 - ¿Disponemos de datos históricos de terremotos y de vibraciones no sísmicas?
 - ¿Habrá distintos niveles de alerta según la gravedad o la confianza de la detección?
-- ¿Se necesita un registro histórico de eventos, alertas y decisiones?
 - ¿Se requiere autenticación, gestión de permisos o integración con otros sistemas?
 - ¿Qué información debe incluir cada notificación?
-- ¿Qué información debe conservarse para analizar posteriormente cada evento?
+- ¿Se necesita un registro histórico de eventos, alertas y decisiones? ¿Qué información debe conservarse para analizar posteriormente cada evento?
 - ¿Cuántos sensores, usuarios y eventos simultáneos debe soportar?
 - ¿Podremos realizar pruebas con señales reales reproducidas, simulaciones y ruido ambiental?
-- ¿Es posible reducir el alcance si aparecen dificultades técnicas o falta de recursos?
+- ¿Qué funcionalidades son imprescindibles y cuáles podrían considerarse opcionales? ¿Es posible reducir el alcance si aparecen dificultades técnicas o falta de recursos?

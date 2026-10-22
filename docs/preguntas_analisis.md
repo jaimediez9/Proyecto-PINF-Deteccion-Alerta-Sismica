@@ -194,20 +194,27 @@ Por tanto, antes de decidir tecnologías, algoritmos o arquitectura, el equipo d
 
 # 13. Mi selección
 
+## INICIO
 - ¿Cuál es el problema concreto que se pretende resolver mediante este sistema?
+
+## FUNCIONAMIENTO GENERAL
 - ¿Cómo y quién recibirá las alertas?
 - ¿Qué decisiones se tomarán a partir de una alerta sísmica?
-- ¿Qué resultado tangible se espera obtener al finalizar el proyecto?
-- ¿Se pretende detectar un terremoto cuando ya está ocurriendo o proporcionar una alerta temprana antes de que lleguen las ondas más destructivas a determinadas ubicaciones?
-- ¿Se busca detectar terremotos reales, identificar vibraciones sospechosas o ambas cosas?
+- ¿Qué información debe incluir cada notificación?
+- ¿Habrá distintos niveles de alerta según la gravedad o la confianza de la detección?
+
+## FUNCIONAMIENTO CONCRETO
 - ¿Qué tipos de eventos sísmicos deben detectarse?
+- ¿Se necesita un registro histórico de eventos, alertas y decisiones? ¿Qué información debe conservarse?
+- ¿Se requiere autenticación, gestión de permisos o integración con otros sistemas?
+- ¿Se busca detectar terremotos reales, identificar vibraciones sospechosas o ambas cosas?
+
+## DUDAS IMPORTANTES
 - ¿Existen sistemas de referencia cuyo funcionamiento deba igualarse o mejorarse?
 - ¿Disponemos de sensores sísmicos propios o debemos adquirirlos?
 - ¿Disponemos de datos históricos de terremotos y de vibraciones no sísmicas?
-- ¿Habrá distintos niveles de alerta según la gravedad o la confianza de la detección?
-- ¿Se requiere autenticación, gestión de permisos o integración con otros sistemas?
-- ¿Qué información debe incluir cada notificación?
-- ¿Se necesita un registro histórico de eventos, alertas y decisiones? ¿Qué información debe conservarse para analizar posteriormente cada evento?
-- ¿Cuántos sensores, usuarios y eventos simultáneos debe soportar?
 - ¿Podremos realizar pruebas con señales reales reproducidas, simulaciones y ruido ambiental?
+
+## DUDAS FINALES
 - ¿Qué funcionalidades son imprescindibles y cuáles podrían considerarse opcionales? ¿Es posible reducir el alcance si aparecen dificultades técnicas o falta de recursos?
+- ¿Qué resultado tangible se espera obtener al finalizar el proyecto?

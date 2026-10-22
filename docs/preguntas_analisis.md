@@ -207,6 +207,7 @@ Por tanto, antes de decidir tecnologías, algoritmos o arquitectura, el equipo d
 - ¿Qué tipos de eventos sísmicos deben detectarse?
 - ¿Se necesita un registro histórico de eventos, alertas y decisiones? ¿Qué información debe conservarse?
 - ¿Se requiere autenticación, gestión de permisos o integración con otros sistemas?
+- ¿Qué elementos clave visuales deben destacar al entrar al sistema? ¿Sismogramas, mapa...?
 - ¿Se busca detectar terremotos reales, identificar vibraciones sospechosas o ambas cosas?
 - ¿Se necesitará más de un punto de detección para garantizar que se trate de un sismo?
 

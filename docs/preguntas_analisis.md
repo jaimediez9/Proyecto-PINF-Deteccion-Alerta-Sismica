@@ -217,6 +217,9 @@ Por tanto, antes de decidir tecnologías, algoritmos o arquitectura, el equipo d
 - ¿Disponemos de datos históricos de terremotos y de vibraciones no sísmicas?
 - ¿Podremos realizar pruebas con señales reales reproducidas, simulaciones y ruido ambiental?
 
+## DOCUMENTACIÓN (si tienen)
+- Pedir fórmulas y procedimientos de análisis necesarios para procesar los datos de actividad sísmica y poder crear un modelo de detección y alarma coherente y con error mínimo
+
 ## DUDAS FINALES
 - ¿Qué funcionalidades son imprescindibles y cuáles podrían considerarse opcionales? ¿Es posible reducir el alcance si aparecen dificultades técnicas o falta de recursos?
 - ¿Qué resultado tangible se espera obtener al finalizar el proyecto?

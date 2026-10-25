@@ -2,7 +2,7 @@
 
 Comprobad que no se me haya escapado nada o añadido cosas que pueden ser comprimidas en otras clases.
 
-<img width="1033" height="537" alt="Captura de pantalla 2026-10-24 135205" src="https://github.com/user-attachments/assets/52822010-38bb-4fbc-b2ec-eb42b12ff729" />
+<img width="1052" height="557" alt="Captura de pantalla 2026-10-25 161950" src="https://github.com/user-attachments/assets/b565ee60-1a5b-4783-93bf-45f7664fb520" />
 
 # Responsabilidades
 

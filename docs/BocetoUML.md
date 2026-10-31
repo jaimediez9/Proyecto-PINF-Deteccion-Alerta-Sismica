@@ -1,9 +1,27 @@
-# Boceto de Diagrama de Clases UML - Sistema de Alertas Sísmicas
+# Bocetos de Diagramas - Sistema de Alertas Sísmicas
 
-Comprobad que no se me haya escapado nada o añadido cosas que pueden ser comprimidas en otras clases.
+# Diagrama de Casos de Uso
+
+Actores: Usuario, Servidor del ROA, Servidor de Notificaciones y el Sistema.
+Subsistemas del problema:
+* Consulta y Visualización: Todo lo que sea consultar datos (mapa, magnitud, distancia...), ya sea con conexión u offline.
+* Configuración y Recepción de Avisos: Muestra el aviso legal, recoge permisos, la configuración de cada usuario personalizada, poder activar o desactivar el sonido, vibración o directamente la notificación completa y poder abrir los datos de la notificación a través de su alerta sin estar en la app (o entrar en la app para consultar la notificación).
+* Gestión de Datos: Recolecta de datos del servidor, sincronización con la base de datos y caché local, comprobación de configuración del usuario para las notificaciones correspondientes y almacenamiento de datos (en caso de no estar ya registrado el seísmo).
+
+<img width="1142" height="600" alt="image" src="https://github.com/user-attachments/assets/e66a8ee3-4a28-4bc3-9712-cda6030d186d" />
+
+**ALGUNAS RELACIONES ENTRE CASOS DE USO**
+
+* C2 extensión de C1.
+* C5 incluido en C1 y C2.
+* C7 extensión de C6.
+* C9 extensión de C8.
+* C1 incluye a C10.
+* C11 incluye a C12 y C13.
+
+# Diagrama de Clases - Imprescindible
 
 <img width="870" height="561" alt="image" src="https://github.com/user-attachments/assets/df1f633c-bee1-469f-bdf9-515251a0263a" />
-
 
 # Responsabilidades
 

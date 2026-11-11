@@ -14,3 +14,6 @@ pycache/
 .coverage
 htmlcov/
 #Pongan el resto programadores
+
+# Respaldos locales (puntos de undo)
+.undo/

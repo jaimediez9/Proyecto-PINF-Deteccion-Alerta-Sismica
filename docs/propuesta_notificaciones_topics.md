@@ -67,13 +67,13 @@ vive en una *condición* booleana que FCM evalúa:
 
 Ya implementado y probado (lógica pura, sin red ni credenciales):
 
-- `Programación/Backend/app/services/topic_router.py`
+- `src/backend/app/services/topic_router.py`
   - `magnitude_topics(magnitude)` → niveles cubiertos.
   - `zone_topic(zona)` → normaliza el nombre de zona a un topic válido de FCM.
   - `compute_topics(magnitude, zona, combined=…)` → topics separados o compuestos (A/B).
   - `build_conditions(magnitude, zona)` → condiciones FCM de la opción C, con troceo
     automático al pasar de 5 topics.
-- `Programación/Backend/tests/test_topic_router.py` → 18 pruebas (`pytest`).
+- `src/backend/tests/test_topic_router.py` → 18 pruebas (`pytest`).
 
 **Pendiente:** el *adapter* de envío real a FCM (credencial en `.env`, jamás en el repo
 por **RNF-16**) — bloqueado hasta tener proyecto Firebase y el esquema del JSON del ROA.

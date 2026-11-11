@@ -1,0 +1,16 @@
+#Para python 
+.venv/
+venv
+.env
+.env.*
+!.env.example
+
+pycache/
+*.py[cod]
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+#Pongan el resto programadores

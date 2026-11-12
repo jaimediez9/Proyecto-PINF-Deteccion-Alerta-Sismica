@@ -41,4 +41,4 @@ La lógica de decisión de topics ya está **implementada y probada**: ver
 
 El *cómo* enviamos el aviso (FCM + topics/condiciones) es **decisión nuestra**: el pliego
 (**RD‑05**) pide que se lo **expliquemos** con ventajas e inconvenientes. Llevarlo como
-**propuesta**, no como duda. → Ver `docs/propuesta_notificaciones_topics.md`.
+**propuesta**, no como duda. (Ver `docs/propuesta_notificaciones_topics.md`).

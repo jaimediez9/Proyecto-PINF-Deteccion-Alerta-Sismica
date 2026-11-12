@@ -1,4 +1,4 @@
-# Preguntas para el teniente — zonas y sistema de avisos
+# Preguntas para el teniente: zonas y sistema de avisos
 
 > Para la reunión de los analistas. **Llevar la pregunta 1 como prioritaria**: es la que
 > desbloquea el diseño de los avisos. El resto son de apoyo.
@@ -16,7 +16,7 @@ La lógica de decisión de topics ya está **implementada y probada**: ver
 
 ## Preguntas
 
-**1. Zonas — lista y nomenclatura (PRIORITARIA)**
+**1. Zonas - lista y nomenclatura (PRIORITARIA)**
 - ¿Con qué zonas etiquetáis los terremotos? ¿Nos facilitáis la lista?
 - ¿La zona viene en el JSON como **texto** ("Golfo de Cádiz") o como **código/ID**?
 - ¿Esas zonas son las mismas que podríamos usar para que el usuario elija la **zona de sus avisos** (RF‑17), o son conceptos distintos?

@@ -19,7 +19,7 @@ from dataclasses import dataclass
 from datetime import timezone
 from typing import Protocol
 
-from app.models.seismo import Seismo
+from app.models.terremoto import Terremoto
 from app.services.topic_router import MAGNITUDE_LEVELS, PASO_GRADOS, build_conditions
 
 URL_BASE = "https://fcm.googleapis.com/v1/projects/{project_id}/messages:send"
@@ -50,12 +50,12 @@ class ConfiguracionFCM:
 
 def construir_mensaje(
     condicion: str,
-    seismo: Seismo,
+    terremoto: Terremoto,
     *,
     titulo: str | None = None,
     cuerpo: str | None = None,
 ) -> dict:
-    """Construye el cuerpo del mensaje FCM (HTTP v1) para un seísmo.
+    """Construye el cuerpo del mensaje FCM (HTTP v1) para un terremoto.
 
     El aviso lleva magnitud, zona y hora (**RF-19**) y todos los datos del
     terremoto, que FCM exige como cadenas. El título es factual y en pasado:
@@ -64,26 +64,26 @@ def construir_mensaje(
     if not condicion:
         raise ValueError("La condición de topics no puede estar vacía")
 
-    instante = seismo.time.astimezone(timezone.utc)
+    instante = terremoto.fechaHoraUTC.astimezone(timezone.utc)
     return {
         "message": {
             "condition": condicion,
             "notification": {
                 "title": titulo or "Terremoto registrado",
                 "body": cuerpo
-                or f"M{seismo.magnitud} en {seismo.region or 'zona sin especificar'}"
+                or f"M{terremoto.magnitud} en {terremoto.zona or 'zona sin especificar'}"
                 f" · {instante.strftime('%Y-%m-%d %H:%M')} UTC",
             },
             "data": {
-                "id": seismo.id,
-                "tiempo_utc": instante.isoformat(),
-                "lat": str(seismo.lat),
-                "lon": str(seismo.lon),
-                "profundidad_km": str(seismo.depth_km),
-                "magnitud": str(seismo.magnitud),
-                "tipo_magnitud": seismo.tipo_magnitud or "",
-                "region": seismo.region or "",
-                "revisado": "true" if seismo.revisado else "false",
+                "identificador": terremoto.identificador,
+                "fechaHoraUTC": instante.isoformat(),
+                "latitud": str(terremoto.latitud),
+                "longitud": str(terremoto.longitud),
+                "profundidad": str(terremoto.profundidad),
+                "magnitud": str(terremoto.magnitud),
+                "tipoMagnitud": terremoto.tipoMagnitud or "",
+                "zona": terremoto.zona or "",
+                "revisado": "true" if terremoto.revisado else "false",
             },
         }
     }
@@ -140,17 +140,19 @@ class EnviadorFCMHttp:
 
 
 def avisar_de(
-    seismo: Seismo,
+    terremoto: Terremoto,
     enviador: EnviadorFCM,
     *,
     levels: tuple[int, ...] = MAGNITUDE_LEVELS,
     paso: float = PASO_GRADOS,
 ) -> list[str]:
-    """Avisa de un seísmo: calcula sus condiciones y manda un mensaje por cada una.
+    """Avisa de un terremoto: calcula sus condiciones y manda un mensaje por cada una.
 
     Devuelve los identificadores devueltos por el enviador. Nota: el control de
     "no reavisar el mismo terremoto salvo cambio apreciable de magnitud"
     (**RF-20**) necesita estado (la base de datos) y no vive aquí.
     """
-    condiciones = build_conditions(seismo.magnitud, seismo.lat, seismo.lon, levels=levels, paso=paso)
-    return [enviador.enviar(construir_mensaje(condicion, seismo)) for condicion in condiciones]
+    condiciones = build_conditions(
+        terremoto.magnitud, terremoto.latitud, terremoto.longitud, levels=levels, paso=paso
+    )
+    return [enviador.enviar(construir_mensaje(condicion, terremoto)) for condicion in condiciones]

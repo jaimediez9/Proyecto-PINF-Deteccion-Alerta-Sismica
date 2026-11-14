@@ -1,3 +1,5 @@
 fastapi[standard]
 httpx
 pytest
+google-auth  # token OAuth2 de la cuenta de servicio para FCM (sender real)
+requests    # transporte que usa google-auth para refrescar el token

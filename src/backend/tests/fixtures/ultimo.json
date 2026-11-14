@@ -1,0 +1,688 @@
+{
+  "stale": false,
+  "age_s": 48,
+  "generated": "2026-11-14T10:05:02Z",
+  "source": "SeisComP3 ROA (geo6)",
+  "resumen": {
+    "id": "roa2026whof",
+    "time": "2026-11-14T04:54:56.895Z",
+    "lat": 37.0959,
+    "lon": -4.1395,
+    "depth": 10.0,
+    "depth_err": 0.0,
+    "mag": 2.0,
+    "mag_type": "M",
+    "nmag": 6.0,
+    "region": "Spain",
+    "type": null,
+    "mode": "automatic",
+    "status": null,
+    "agency": "roa",
+    "author": "scautoloc@geo6",
+    "nphases": 6.0,
+    "gap": 129.0,
+    "mindist": 0.41,
+    "rms": 1.54,
+    "method": "LOCSAT",
+    "model": "iberia",
+    "updated": "2026-11-14T04:58:12Z"
+  },
+  "evento": {
+    "publicID": "roa2026whof",
+    "preferredOriginID": "Origin#20261114045539.926853.256328",
+    "preferredMagnitudeID": "Origin#20261114045539.926853.256328#netMag.M",
+    "creationInfo": {
+      "agencyID": "roa",
+      "author": "scevent@geo6",
+      "creationTime": "2026-11-14T04:55:40.240112Z",
+      "modificationTime": "2026-11-14T04:57:52.623504Z"
+    },
+    "description": [
+      {
+        "text": "Spain",
+        "type": "region name"
+      }
+    ],
+    "originReference": [
+      "Origin#20261114045539.926853.256328"
+    ]
+  },
+  "origenes": [
+    {
+      "publicID": "Origin#20261114045539.926853.256328",
+      "time": {
+        "value": "2026-11-14T04:54:56.895356Z",
+        "uncertainty": 0.4876538633
+      },
+      "latitude": {
+        "value": 37.0959053,
+        "uncertainty": 5.928221188
+      },
+      "longitude": {
+        "value": -4.139451981,
+        "uncertainty": 3.804842027
+      },
+      "depth": {
+        "value": 10,
+        "uncertainty": 0
+      },
+      "methodID": "LOCSAT",
+      "earthModelID": "iberia",
+      "quality": {
+        "associatedPhaseCount": 6,
+        "usedPhaseCount": 6,
+        "associatedStationCount": 6,
+        "usedStationCount": 6,
+        "standardError": 1.53654433,
+        "azimuthalGap": 129.405159,
+        "maximumDistance": 1.547621369,
+        "minimumDistance": 0.4063738585,
+        "medianDistance": 1.144825399
+      },
+      "evaluationMode": "automatic",
+      "creationInfo": {
+        "agencyID": "roa",
+        "author": "scautoloc@geo6",
+        "creationTime": "2026-11-14T04:55:39.926838Z"
+      },
+      "arrival": [
+        {
+          "pickID": "20261114.045502.96-ES.ELGU..HHZ",
+          "phase": "P",
+          "azimuth": 118.9541702,
+          "distance": 0.468901217,
+          "timeResidual": -2.65023756,
+          "weight": 1
+        },
+        {
+          "pickID": "20261114.045505.32-WM.EMAL..HHZ",
+          "phase": "P",
+          "azimuth": 214.8349152,
+          "distance": 0.4063738585,
+          "timeResidual": 0.8509764671,
+          "weight": 1
+        },
+        {
+          "pickID": "20261114.045515.03-ES.EBER..HHZ",
+          "phase": "P",
+          "azimuth": 100.8429871,
+          "distance": 1.017657042,
+          "timeResidual": -0.1698288918,
+          "weight": 1
+        },
+        {
+          "pickID": "20261114.045520.14-ES.ECAB..HHZ",
+          "phase": "P",
+          "azimuth": 314.4038086,
+          "distance": 1.409473181,
+          "timeResidual": -1.086160183,
+          "weight": 1
+        },
+        {
+          "pickID": "20261114.045520.35-WM.WCAL..HHZ",
+          "phase": "P",
+          "azimuth": 83.80896759,
+          "distance": 1.271993756,
+          "timeResidual": 1.007044315,
+          "weight": 1
+        },
+        {
+          "pickID": "20261114.045525.24-ES.ENIJ..HHZ",
+          "phase": "P",
+          "azimuth": 94.02819061,
+          "distance": 1.547621369,
+          "timeResidual": 2.048210621,
+          "weight": 1
+        }
+      ],
+      "stationMagnitude": [
+        {
+          "publicID": "Origin#20261114045539.926853.256328#staMag.MLv#ES.ELGU",
+          "magnitude": {
+            "value": 1.936954815
+          },
+          "type": "MLv",
+          "amplitudeID": "Amplitude#20261114045554.234668.310721",
+          "waveformID": {
+            "networkCode": "ES",
+            "stationCode": "ELGU",
+            "channelCode": "HHZ"
+          },
+          "creationInfo": {
+            "agencyID": "roa",
+            "author": "scmag@geo6",
+            "creationTime": "2026-11-14T04:55:54.279836Z"
+          }
+        },
+        {
+          "publicID": "Origin#20261114045539.926853.256328#staMag.ML#WM.EMAL",
+          "magnitude": {
+            "value": 1.456372576
+          },
+          "type": "ML",
+          "amplitudeID": "Amplitude#20261114045557.344328.310722",
+          "waveformID": {
+            "networkCode": "WM",
+            "stationCode": "EMAL",
+            "channelCode": "HH"
+          },
+          "creationInfo": {
+            "agencyID": "roa",
+            "author": "scmag@geo6",
+            "creationTime": "2026-11-14T04:55:57.391701Z"
+          }
+        },
+        {
+          "publicID": "Origin#20261114045539.926853.256328#staMag.MLv#WM.EMAL",
+          "magnitude": {
+            "value": 1.336258193
+          },
+          "type": "MLv",
+          "amplitudeID": "Amplitude#20261114045559.334882.310723",
+          "waveformID": {
+            "networkCode": "WM",
+            "stationCode": "EMAL",
+            "channelCode": "HHZ"
+          },
+          "creationInfo": {
+            "agencyID": "roa",
+            "author": "scmag@geo6",
+            "creationTime": "2026-11-14T04:55:59.381815Z"
+          }
+        },
+        {
+          "publicID": "Origin#20261114045539.926853.256328#staMag.ML#ES.ELGU",
+          "magnitude": {
+            "value": 2.050986105
+          },
+          "type": "ML",
+          "amplitudeID": "Amplitude#20261114045604.056693.310724",
+          "waveformID": {
+            "networkCode": "ES",
+            "stationCode": "ELGU",
+            "channelCode": "HH"
+          },
+          "creationInfo": {
+            "agencyID": "roa",
+            "author": "scmag@geo6",
+            "creationTime": "2026-11-14T04:56:04.106283Z"
+          }
+        },
+        {
+          "publicID": "Origin#20261114045539.926853.256328#staMag.MLv#WM.WCAL",
+          "magnitude": {
+            "value": 1.991204818
+          },
+          "type": "MLv",
+          "amplitudeID": "20261114.045520.35-WM.WCAL..HHZ.MLv",
+          "waveformID": {
+            "networkCode": "WM",
+            "stationCode": "WCAL",
+            "channelCode": "HHZ"
+          },
+          "creationInfo": {
+            "agencyID": "roa",
+            "author": "scmag@geo6",
+            "creationTime": "2026-11-14T04:57:51.087463Z"
+          }
+        },
+        {
+          "publicID": "Origin#20261114045539.926853.256328#staMag.MLv#ES.EBER",
+          "magnitude": {
+            "value": 2.061304444
+          },
+          "type": "MLv",
+          "amplitudeID": "20261114.045515.03-ES.EBER..HHZ.MLv",
+          "waveformID": {
+            "networkCode": "ES",
+            "stationCode": "EBER",
+            "channelCode": "HHZ"
+          },
+          "creationInfo": {
+            "agencyID": "roa",
+            "author": "scmag@geo6",
+            "creationTime": "2026-11-14T04:57:52.289794Z"
+          }
+        },
+        {
+          "publicID": "Origin#20261114045539.926853.256328#staMag.MLv#ES.ENIJ",
+          "magnitude": {
+            "value": 2.458357026
+          },
+          "type": "MLv",
+          "amplitudeID": "20261114.045525.24-ES.ENIJ..HHZ.MLv",
+          "waveformID": {
+            "networkCode": "ES",
+            "stationCode": "ENIJ",
+            "channelCode": "HHZ"
+          },
+          "creationInfo": {
+            "agencyID": "roa",
+            "author": "scmag@geo6",
+            "creationTime": "2026-11-14T04:57:57.170687Z"
+          }
+        },
+        {
+          "publicID": "Origin#20261114045539.926853.256328#staMag.MLv#ES.ECAB",
+          "magnitude": {
+            "value": 2.365270958
+          },
+          "type": "MLv",
+          "amplitudeID": "20261114.045520.14-ES.ECAB..HHZ.MLv",
+          "waveformID": {
+            "networkCode": "ES",
+            "stationCode": "ECAB",
+            "channelCode": "HHZ"
+          },
+          "creationInfo": {
+            "agencyID": "roa",
+            "author": "scmag@geo6",
+            "creationTime": "2026-11-14T04:58:11.761744Z"
+          }
+        }
+      ],
+      "magnitude": [
+        {
+          "publicID": "Origin#20261114045539.926853.256328#netMag.MLv",
+          "magnitude": {
+            "value": 2.067419742,
+            "uncertainty": 0.2845747948
+          },
+          "type": "MLv",
+          "methodID": "trimmed mean(25)",
+          "stationCount": 6,
+          "creationInfo": {
+            "agencyID": "roa",
+            "author": "scmag@geo6",
+            "creationTime": "2026-11-14T04:55:54.279927Z"
+          },
+          "stationMagnitudeContribution": [
+            {
+              "stationMagnitudeID": "Origin#20261114045539.926853.256328#staMag.MLv#ES.EBER",
+              "weight": 1
+            },
+            {
+              "stationMagnitudeID": "Origin#20261114045539.926853.256328#staMag.MLv#ES.ECAB",
+              "weight": 1
+            },
+            {
+              "stationMagnitudeID": "Origin#20261114045539.926853.256328#staMag.MLv#ES.ELGU",
+              "weight": 1
+            },
+            {
+              "stationMagnitudeID": "Origin#20261114045539.926853.256328#staMag.MLv#ES.ENIJ",
+              "weight": 0.25
+            },
+            {
+              "stationMagnitudeID": "Origin#20261114045539.926853.256328#staMag.MLv#WM.EMAL",
+              "weight": 0.25
+            },
+            {
+              "stationMagnitudeID": "Origin#20261114045539.926853.256328#staMag.MLv#WM.WCAL",
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "publicID": "Origin#20261114045539.926853.256328#netMag.M",
+          "magnitude": {
+            "value": 1.962839608
+          },
+          "type": "M",
+          "methodID": "weighted average",
+          "stationCount": 6,
+          "creationInfo": {
+            "agencyID": "roa",
+            "author": "scmag@geo6",
+            "creationTime": "2026-11-14T04:55:54.280348Z",
+            "modificationTime": "2026-11-14T04:58:11.762644Z"
+          }
+        },
+        {
+          "publicID": "Origin#20261114045539.926853.256328#netMag.ML",
+          "magnitude": {
+            "value": 1.753679341,
+            "uncertainty": 0.4204552586
+          },
+          "type": "ML",
+          "methodID": "mean",
+          "stationCount": 2,
+          "creationInfo": {
+            "agencyID": "roa",
+            "author": "scmag@geo6",
+            "creationTime": "2026-11-14T04:55:57.391807Z"
+          },
+          "stationMagnitudeContribution": [
+            {
+              "stationMagnitudeID": "Origin#20261114045539.926853.256328#staMag.ML#ES.ELGU",
+              "weight": 1
+            },
+            {
+              "stationMagnitudeID": "Origin#20261114045539.926853.256328#staMag.ML#WM.EMAL",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "picks": [
+    {
+      "publicID": "20261114.045502.96-ES.ELGU..HHZ",
+      "time": {
+        "value": "2026-11-14T04:55:02.96Z"
+      },
+      "waveformID": {
+        "networkCode": "ES",
+        "stationCode": "ELGU",
+        "channelCode": "HHZ"
+      },
+      "filterID": "RMHP(10)>>ITAPER(30)>>BW(4,4.0,16.0)>>STALTA(1,10)",
+      "methodID": "Trigger",
+      "phaseHint": "P",
+      "evaluationMode": "automatic",
+      "creationInfo": {
+        "agencyID": "roa",
+        "author": "scautopick@geo6",
+        "creationTime": "2026-11-14T04:55:13.993404Z"
+      }
+    },
+    {
+      "publicID": "20261114.045505.32-WM.EMAL..HHZ",
+      "time": {
+        "value": "2026-11-14T04:55:05.329999Z"
+      },
+      "waveformID": {
+        "networkCode": "WM",
+        "stationCode": "EMAL",
+        "channelCode": "HHZ"
+      },
+      "filterID": "RMHP(10)>>ITAPER(30)>>BW(4,4.0,16.0)>>STALTA(1,10)",
+      "methodID": "Trigger",
+      "phaseHint": "P",
+      "evaluationMode": "automatic",
+      "creationInfo": {
+        "agencyID": "roa",
+        "author": "scautopick@geo6",
+        "creationTime": "2026-11-14T04:55:11.33054Z"
+      }
+    },
+    {
+      "publicID": "20261114.045515.03-ES.EBER..HHZ",
+      "time": {
+        "value": "2026-11-14T04:55:15.039999Z"
+      },
+      "waveformID": {
+        "networkCode": "ES",
+        "stationCode": "EBER",
+        "channelCode": "HHZ"
+      },
+      "filterID": "RMHP(10)>>ITAPER(30)>>BW(4,4.0,16.0)>>STALTA(1,10)",
+      "methodID": "Trigger",
+      "phaseHint": "P",
+      "evaluationMode": "automatic",
+      "creationInfo": {
+        "agencyID": "roa",
+        "author": "scautopick@geo6",
+        "creationTime": "2026-11-14T04:55:22.242309Z"
+      }
+    },
+    {
+      "publicID": "20261114.045520.14-ES.ECAB..HHZ",
+      "time": {
+        "value": "2026-11-14T04:55:20.14Z"
+      },
+      "waveformID": {
+        "networkCode": "ES",
+        "stationCode": "ECAB",
+        "channelCode": "HHZ"
+      },
+      "filterID": "RMHP(10)>>ITAPER(30)>>BW(4,4.0,16.0)>>STALTA(1,10)",
+      "methodID": "Trigger",
+      "phaseHint": "P",
+      "evaluationMode": "automatic",
+      "creationInfo": {
+        "agencyID": "roa",
+        "author": "scautopick@geo6",
+        "creationTime": "2026-11-14T04:55:29.025952Z"
+      }
+    },
+    {
+      "publicID": "20261114.045520.35-WM.WCAL..HHZ",
+      "time": {
+        "value": "2026-11-14T04:55:20.358393Z"
+      },
+      "waveformID": {
+        "networkCode": "WM",
+        "stationCode": "WCAL",
+        "channelCode": "HHZ"
+      },
+      "filterID": "RMHP(10)>>ITAPER(30)>>BW(4,4.0,16.0)>>STALTA(1,10)",
+      "methodID": "Trigger",
+      "phaseHint": "P",
+      "evaluationMode": "automatic",
+      "creationInfo": {
+        "agencyID": "roa",
+        "author": "scautopick@geo6",
+        "creationTime": "2026-11-14T04:55:24.024111Z"
+      }
+    },
+    {
+      "publicID": "20261114.045525.24-ES.ENIJ..HHZ",
+      "time": {
+        "value": "2026-11-14T04:55:25.24Z"
+      },
+      "waveformID": {
+        "networkCode": "ES",
+        "stationCode": "ENIJ",
+        "channelCode": "HHZ"
+      },
+      "filterID": "RMHP(10)>>ITAPER(30)>>BW(4,4.0,16.0)>>STALTA(1,10)",
+      "methodID": "Trigger",
+      "phaseHint": "P",
+      "evaluationMode": "automatic",
+      "creationInfo": {
+        "agencyID": "roa",
+        "author": "scautopick@geo6",
+        "creationTime": "2026-11-14T04:55:29.03503Z"
+      }
+    }
+  ],
+  "amplitudes": [
+    {
+      "publicID": "20261114.045515.03-ES.EBER..HHZ.MLv",
+      "type": "MLv",
+      "amplitude": {
+        "value": 0.09904406973
+      },
+      "timeWindow": {
+        "reference": "2026-11-14T04:55:23.7Z",
+        "begin": -13.66,
+        "end": 141.34
+      },
+      "snr": 1.465486068,
+      "pickID": "20261114.045515.03-ES.EBER..HHZ",
+      "waveformID": {
+        "networkCode": "ES",
+        "stationCode": "EBER",
+        "channelCode": "HHZ"
+      },
+      "creationInfo": {
+        "agencyID": "roa",
+        "author": "scautopick@geo6",
+        "creationTime": "2026-11-14T04:57:52.241728Z"
+      }
+    },
+    {
+      "publicID": "20261114.045520.14-ES.ECAB..HHZ.MLv",
+      "type": "MLv",
+      "amplitude": {
+        "value": 0.1208027005
+      },
+      "timeWindow": {
+        "reference": "2026-11-14T04:57:36.599999Z",
+        "begin": -141.46,
+        "end": 13.54
+      },
+      "snr": 1.535752451,
+      "pickID": "20261114.045520.14-ES.ECAB..HHZ",
+      "waveformID": {
+        "networkCode": "ES",
+        "stationCode": "ECAB",
+        "channelCode": "HHZ"
+      },
+      "creationInfo": {
+        "agencyID": "roa",
+        "author": "scautopick@geo6",
+        "creationTime": "2026-11-14T04:58:11.431684Z"
+      }
+    },
+    {
+      "publicID": "Amplitude#20261114045554.234668.310721",
+      "type": "MLv",
+      "amplitude": {
+        "value": 0.215871763
+      },
+      "timeWindow": {
+        "reference": "2026-11-14T04:55:12.199999Z",
+        "begin": -14.24,
+        "end": 38.14
+      },
+      "snr": 3.014177697,
+      "pickID": "20261114.045502.96-ES.ELGU..HHZ",
+      "waveformID": {
+        "networkCode": "ES",
+        "stationCode": "ELGU",
+        "channelCode": "HHZ"
+      },
+      "creationInfo": {
+        "agencyID": "roa",
+        "author": "scamp@geo6",
+        "creationTime": "2026-11-14T04:55:54.234755Z"
+      }
+    },
+    {
+      "publicID": "20261114.045525.24-ES.ENIJ..HHZ.MLv",
+      "type": "MLv",
+      "amplitude": {
+        "value": 0.1254292011
+      },
+      "timeWindow": {
+        "reference": "2026-11-14T04:55:52.619999Z",
+        "begin": -32.38,
+        "end": 122.62
+      },
+      "snr": 1.717043496,
+      "pickID": "20261114.045525.24-ES.ENIJ..HHZ",
+      "waveformID": {
+        "networkCode": "ES",
+        "stationCode": "ENIJ",
+        "channelCode": "HHZ"
+      },
+      "creationInfo": {
+        "agencyID": "roa",
+        "author": "scautopick@geo6",
+        "creationTime": "2026-11-14T04:57:57.119829Z"
+      }
+    },
+    {
+      "publicID": "Amplitude#20261114045559.334882.310723",
+      "type": "MLv",
+      "amplitude": {
+        "value": 0.08076448114
+      },
+      "timeWindow": {
+        "reference": "2026-11-14T04:55:16.919999Z",
+        "begin": -16.59,
+        "end": 33.47
+      },
+      "snr": 3.543866569,
+      "pickID": "20261114.045505.32-WM.EMAL..HHZ",
+      "waveformID": {
+        "networkCode": "WM",
+        "stationCode": "EMAL",
+        "channelCode": "HHZ"
+      },
+      "creationInfo": {
+        "agencyID": "roa",
+        "author": "scamp@geo6",
+        "creationTime": "2026-11-14T04:55:59.334974Z"
+      }
+    },
+    {
+      "publicID": "20261114.045520.35-WM.WCAL..HHZ.MLv",
+      "type": "MLv",
+      "amplitude": {
+        "value": 0.06086995053
+      },
+      "timeWindow": {
+        "reference": "2026-11-14T04:55:20.138392Z",
+        "begin": -4.78,
+        "end": 150.22
+      },
+      "snr": 1.909502892,
+      "pickID": "20261114.045520.35-WM.WCAL..HHZ",
+      "waveformID": {
+        "networkCode": "WM",
+        "stationCode": "WCAL",
+        "channelCode": "HHZ"
+      },
+      "creationInfo": {
+        "agencyID": "roa",
+        "author": "scautopick@geo6",
+        "creationTime": "2026-11-14T04:57:51.029444Z"
+      }
+    },
+    {
+      "publicID": "Amplitude#20261114045604.056693.310724",
+      "type": "ML",
+      "amplitude": {
+        "value": 0.280690122,
+        "lowerUncertainty": 0.05257294147,
+        "upperUncertainty": 0.05257294147
+      },
+      "timeWindow": {
+        "reference": "2026-11-14T04:55:15.519999Z",
+        "begin": -17.559998,
+        "end": 34.82
+      },
+      "pickID": "20261114.045502.96-ES.ELGU..HHZ",
+      "waveformID": {
+        "networkCode": "ES",
+        "stationCode": "ELGU",
+        "channelCode": "HH"
+      },
+      "creationInfo": {
+        "agencyID": "roa",
+        "author": "scamp@geo6",
+        "creationTime": "2026-11-14T04:56:04.056793Z"
+      }
+    },
+    {
+      "publicID": "Amplitude#20261114045557.344328.310722",
+      "type": "ML",
+      "amplitude": {
+        "value": 0.1064963665,
+        "lowerUncertainty": 0.02724798489,
+        "upperUncertainty": 0.02724798489
+      },
+      "timeWindow": {
+        "reference": "2026-11-14T04:55:17.429999Z",
+        "begin": -17.099999,
+        "end": 32.960001
+      },
+      "pickID": "20261114.045505.32-WM.EMAL..HHZ",
+      "waveformID": {
+        "networkCode": "WM",
+        "stationCode": "EMAL",
+        "channelCode": "HH"
+      },
+      "creationInfo": {
+        "agencyID": "roa",
+        "author": "scamp@geo6",
+        "creationTime": "2026-11-14T04:55:57.344422Z"
+      }
+    }
+  ],
+  "mecanismos_focales": []
+}

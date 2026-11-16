@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:frontend/layout/upper_row.dart';
+import 'package:frontend/screens/screen1.dart';
 //import 'package:frontend/layout/lista_terremotos.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MiAplicacion extends StatelessWidget {
   Widget build(BuildContext context){
     return const MaterialApp(
       home: Scaffold(
-        body: UpperRow(), //barra de arriba con logo y ajustes
+        body: Screen1(), //barra de arriba con logo y ajustes
         //ListaTerremotos(), //Aqui quiero meter una columna para poner la lista de terremotos
       ),
     );

@@ -3,7 +3,7 @@
 A new Flutter project.
 
 SEÑORES LOS CODIGOS SE PONEN EN /LIB Y LAS PRUEBAS EN /TEST LO DEMAS TODAVIA NO SE PARA QUE ES
-
+EN /ASSETS VAN LAS IMÁGENES
 ## Getting Started
 
 This project is a starting point for a Flutter application.

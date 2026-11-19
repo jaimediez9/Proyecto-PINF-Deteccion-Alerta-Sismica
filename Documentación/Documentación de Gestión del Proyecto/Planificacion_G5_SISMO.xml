@@ -253,7 +253,7 @@
       <FixedCostAccrual>3</FixedCostAccrual>
       <PercentComplete>0</PercentComplete>
       <PercentWorkComplete>0</PercentWorkComplete>
-      <Cost>0</Cost>
+      <Cost>5178.4</Cost>
       <OvertimeCost>0</OvertimeCost>
       <OvertimeWork>PT0H0M0S</OvertimeWork>
       <ActualDuration>PT0H0M0S</ActualDuration>
@@ -1414,7 +1414,7 @@
       <FixedCostAccrual>3</FixedCostAccrual>
       <PercentComplete>0</PercentComplete>
       <PercentWorkComplete>0</PercentWorkComplete>
-      <Cost>0</Cost>
+      <Cost>3746.16</Cost>
       <OvertimeCost>0</OvertimeCost>
       <OvertimeWork>PT0H0M0S</OvertimeWork>
       <ActualDuration>PT0H0M0S</ActualDuration>
@@ -1864,7 +1864,7 @@
       <FixedCostAccrual>3</FixedCostAccrual>
       <PercentComplete>0</PercentComplete>
       <PercentWorkComplete>0</PercentWorkComplete>
-      <Cost>0</Cost>
+      <Cost>10336.16</Cost>
       <OvertimeCost>0</OvertimeCost>
       <OvertimeWork>PT0H0M0S</OvertimeWork>
       <ActualDuration>PT0H0M0S</ActualDuration>
@@ -1928,7 +1928,7 @@
       <FixedCostAccrual>3</FixedCostAccrual>
       <PercentComplete>38</PercentComplete>
       <PercentWorkComplete>38</PercentWorkComplete>
-      <Cost>0</Cost>
+      <Cost>3128.0</Cost>
       <OvertimeCost>0</OvertimeCost>
       <OvertimeWork>PT0H0M0S</OvertimeWork>
       <ActualDuration>PT0H0M0S</ActualDuration>
@@ -2385,7 +2385,7 @@
       <FixedCostAccrual>3</FixedCostAccrual>
       <PercentComplete>17</PercentComplete>
       <PercentWorkComplete>17</PercentWorkComplete>
-      <Cost>0</Cost>
+      <Cost>2310.88</Cost>
       <OvertimeCost>0</OvertimeCost>
       <OvertimeWork>PT0H0M0S</OvertimeWork>
       <ActualDuration>PT0H0M0S</ActualDuration>
@@ -3331,7 +3331,7 @@
       <FixedCostAccrual>3</FixedCostAccrual>
       <PercentComplete>0</PercentComplete>
       <PercentWorkComplete>0</PercentWorkComplete>
-      <Cost>0</Cost>
+      <Cost>3526.0</Cost>
       <OvertimeCost>0</OvertimeCost>
       <OvertimeWork>PT0H0M0S</OvertimeWork>
       <ActualDuration>PT0H0M0S</ActualDuration>
@@ -3870,7 +3870,7 @@
       <FixedCostAccrual>3</FixedCostAccrual>
       <PercentComplete>0</PercentComplete>
       <PercentWorkComplete>0</PercentWorkComplete>
-      <Cost>0</Cost>
+      <Cost>2287.44</Cost>
       <OvertimeCost>0</OvertimeCost>
       <OvertimeWork>PT0H0M0S</OvertimeWork>
       <ActualDuration>PT0H0M0S</ActualDuration>
